@@ -1,20 +1,9 @@
 <template>
-    <div class="sample">
-        vue webpack project
-        <img src="/assets/img/vue.png" alt="" />
-    </div>
+  <router-view />
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
-
-<style>
-.sample {
-    background-color: green;
-}
-</style>
 
 
