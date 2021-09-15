@@ -66,8 +66,8 @@ ex) ExtractTextPlugin: css의 전 처리기인 SASS를 사용할 경우, SASS파
 
 
 * webpack.config 분할하기
-* webpack.base.js: 공통으로 사용되는 설정값
-* webpack.config.dev.js: development에서 사용되는 설정값
+* webpack.base.js: 공통으로 사용되는 설정값
+* webpack.config.dev.js: development에서 사용되는 설정값
 * webpack.config.prod.js: production에서 사용되는 설정 값
 
 ### 2. DefaultPage 만들기
