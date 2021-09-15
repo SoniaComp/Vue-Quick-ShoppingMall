@@ -5,13 +5,14 @@ script | description
 `npm run dev` | webpack-dev-server을 실행합니다. localhost:8080으로 접속 가능합니다.
 `npm run build` | webpack을 실행합니다. dist로 빌드파일을 생성합니다.
 
-
+<br/>
+<br/>
 
 # Vue.js로 시작하는 [쇼핑몰 제작] 
 
 하나씩 따라하다보면 일주일만에 끝나는 쇼핑몰 웹사이트 만들기
 
-
+<br/>
 
 ## 1일차: 개발환경 설정 및 DefaultPage 만들기
 
