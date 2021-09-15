@@ -12,7 +12,6 @@ script | description
 
 하나씩 따라하다보면 일주일만에 끝나는 쇼핑몰 웹사이트 만들기
 
-<br/>
 
 ## 1일차: 개발환경 설정 및 DefaultPage 만들기
 
@@ -36,7 +35,7 @@ Vue 와 같은 Single-Page-Application은 한 페이지에도 여러가지 Compo
 **WebPack 등장원리**
 자바스크립트는 즉시호출함수(IIFE)를 사용해 모듈을 만들 수 있다. 모듈 시스템을 사용하면 파일 별로 모듈을 관리할 수 있다. 하지만 브라우저에서는 파일단위 모듈 시스템을 사용하는 것이 쉽지 않다. 따라서, *하나의 모듈을 IIFE 스타일로 변경한 후, 하나의 파일로 묶어(bundled) 네트워크 비용을 최소화 해야 한다.*
 
-**WebPack(=모듈 번들러) 개념 4
+**WebPack(=모듈 번들러) 개념 4**
 
 1. 엔트리
 **의존성 그래프의 시작점**
@@ -65,8 +64,8 @@ ex) ExtractTextPlugin: css의 전 처리기인 SASS를 사용할 경우, SASS파
 * **development**: 소스코드를 잘 확인해야 한다.
 * **production**: 난독화를 해야 하고, 파일을 최대한 작게 만들어야 한다.
 
-webpack.config 분할하기
 
+* webpack.config 분할하기
 * webpack.base.js: 공통으로 사용되는 설정값
 * webpack.config.dev.js: development에서 사용되는 설정값
 * webpack.config.prod.js: production에서 사용되는 설정 값
@@ -76,9 +75,7 @@ webpack.config 분할하기
 🐥 병아리 개발자 SoniaComp의 붙임말
 
 가장 좋은 공부 방법은 공식 문서를 보는 것이다. 공식문서는 프레임워크의 개발 철학을 이해하고, 어떻게 소스코드를 작성해야 다른 개발자들이 더 잘 이해할 수 있을지 파악하는 데 도움이 된다.
-
 이에 더해, 프레임워크로 개발된 어플리케이션의 구조를 파악하고 싶다면, 유명한 오픈소스나 템플릿을 참고하는 것이 좋다. gitHub의 ⭐ ️개수가 참고할 만한 오픈소스인지 판단하는 지표가 될 수 있다.
-
 나는 무료 Vue 템플릿인, [vue-argon 템플릿](https://github.com/creativetimofficial/vue-argon-design-system)의 구조를 참고했다.
 
 #### 🧑‍🏫 참고 사이트
